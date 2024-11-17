@@ -1,0 +1,45 @@
+
+.message{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+.message__user{
+    margin-left: auto;
+    color:white;
+    text-align: left !important;
+}
+.message__usercard{
+    background-color: #4CC9FE !important;
+}
+.message__guestcard{
+    background-color: #FFFECB !important;
+}
+.App{
+    text-align: center;
+}
+.app__form{
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    background-color: #F5F4B3;
+    width: 98%;
+    margin: 0;
+        
+}
+.app__formcontrol{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.app__input{ 
+    flex: 1;
+}
+.app__iconbutton{
+    flex: 0;
+}
+.fa-message{
+    color:#4CC9FE;
+    font-size: 50px;
+    margin-top: 20px;
+}
